@@ -360,9 +360,7 @@ chart1 <- gvisBubbleChart(Stocks.data,
                           idvar="Company", 
                           xvar="Adjusted", yvar="High",
                           colorvar="Company", sizevar="Volume",
-                          options=list(
-                            hAxis='{minValue:80, maxValue:550}',
-                            width=600, height=400))
+                          options=list(hAxis='{minValue:80, maxValue:550}', width=600, height=400))
 plot(chart1)             
 
 
